@@ -21,7 +21,7 @@ class ZODBDatabase(Database):
             with transaction.manager:
                 self.root.memory = OOBTree.OOBTree()
         self.memory = self.root.memory
-        _LOGGER.debug("ZODB initialized")
+        _LOGGER.info("ZODB database connected")
 
     async def put(self, key, value):
         with transaction.manager:
