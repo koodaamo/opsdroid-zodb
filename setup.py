@@ -41,7 +41,7 @@ setup(
     setup_requires=setup_requirements,
     entry_points = {
         'opsdroid_databases': [
-            'zodb = opsdroid_zodb.database:ZODBDatabase'
+            'zodb = opsdroid_zodb.database'
         ]
     },
     test_suite='tests',
