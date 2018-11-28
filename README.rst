@@ -9,13 +9,7 @@ to the database file, if you wish not to use the default which is 'opsdroid.fs'
 stored in current directory.
 
 * Free software: Apache Software License 2.0
-* Documentation: https://opsdroid-contrib-zodb.readthedocs.io.
 
-
-Features
---------
-
-* TODO
 
 Credits
 -------
