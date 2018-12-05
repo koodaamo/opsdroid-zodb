@@ -2,6 +2,9 @@
 opsdroid ZODB extension
 ========================
 
+**Note: this extension requires an opsdroid release that has support for entry point - facilitated
+packaged extensions. Currently there are no such releases yet; use opsdroid github master checkout
+until then.**
 
 This extension provides ZODB support for opsdroid. To use, just add 'zodb' to
 the databases section of your opsdroid config, and optionally give a path
