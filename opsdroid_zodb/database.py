@@ -32,3 +32,8 @@ class ZODBDatabase(Database):
         with transaction.manager:
             result = self.memory.get(key)
         return result
+
+
+    async def disconnect(self):
+        self.connection.close()
+        self.db.close()
